@@ -1,0 +1,39 @@
+{
+  "name": "fast-koa",
+  "version": "0.0.1",
+  "description": "The npm package for start an api project fast.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstarorg/fast-koa.git"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "fast",
+    "joi",
+    "router"
+  ],
+  "author": "Jay.M.Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hstarorg/fast-koa/issues"
+  },
+  "homepage": "https://github.com/hstarorg/fast-koa#readme",
+  "dependencies": {
+    "joi": "^13.1.2",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-cors": "0.0.16",
+    "koa-helmet": "^3.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-response-time": "^2.0.0",
+    "koa-router": "^7.4.0"
+  }
+}
