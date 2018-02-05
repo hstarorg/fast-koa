@@ -35,10 +35,10 @@ const loadRoutes = (app, routesPath) => {
  */
 const loadMiddleware = (app, options) => {
   if (options.enableLogger) {
-    app.use(logger(options.loggerOptions || {}));
+    app.use(logger());
   }
   if (options.enableResponseTime) {
-    app.use(responseTime(options.responseTimeOptions || {}));
+    app.use(responseTime());
   }
   if (options.enableHelmet) {
     app.use(helmet(options.helmetOptions || {}));
@@ -57,10 +57,6 @@ const loadMiddleware = (app, options) => {
 const validOptions = options => {
   if (!options) {
     throw new Error('Must provide init options.');
-  }
-  const port = +options.port;
-  if (port <= 0 || port > 65535) {
-    throw new Error('Must provide valid port:[0-65535]');
   }
   if (!options.routesPath) {
     throw new Error('Must provide the routesPath option');

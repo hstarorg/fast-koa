@@ -10,13 +10,11 @@ let app;
 /**
  * Init the koa app.
  * @param {object} options The options object
- * @param {number} options.port The app listen port, must in [0-65535]
+ * @param {string} options.routesPath The routes folder path
  * @param {bool} options.enableHelmet Enable the helmet support
  * @param {object} options.helmetOptions The koa-helmet options
  * @param {bool} options.enableResponseTime Enable the responseTime support
- * @param {object} options.responseTimeOptions The koa-response-time options
  * @param {bool} options.enableLogger Enable the logger support
- * @param {object} options.loggerOptions The koa-logger options
  * @param {bool} options.enableCors Enable the cors support
  * @param {object} options.corsOptions The koa-cors options
  * @param {object} options.bodyOptions The koa-body options
