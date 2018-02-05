@@ -1,0 +1,23 @@
+{
+  "name": "fast-koa-cli",
+  "version": "0.0.1",
+  "description": "The cli tool for fast-koa",
+  "main": "index.js",
+  "bin": {
+    "fast-koa": "./bin/fast-koa.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jay.M.Hu",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "gulp": "^4.0.0",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-newer": "^1.4.0",
+    "node-notifier": "^5.2.1",
+    "shelljs": "^0.8.1"
+  }
+}
