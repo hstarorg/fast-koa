@@ -4,10 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "fast-koa dev",
+    "build": "fast-koa build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "fast-koa-cli": "0.0.1"
+  },
+  "dependencies": {
+    "fast-koa": "0.0.1"
+  }
 }
