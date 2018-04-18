@@ -1,6 +1,6 @@
 {
   "name": "fast-koa-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The cli tool for fast-koa",
   "main": "index.js",
   "bin": {
