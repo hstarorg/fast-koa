@@ -1,6 +1,6 @@
 {
   "name": "fast-koa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The npm package for start an api project fast.",
   "main": "index.js",
   "directories": {
