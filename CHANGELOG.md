@@ -1,5 +1,9 @@
 # Changelog
 
+## [fast-koa-cli] 0.0.4 (2018-11-30)
+
+- Fix security vulnerabilities 
+
 ## [fast-koa-cli] 0.0.3 (2018-11-30)
 
 - Upgrade deps
