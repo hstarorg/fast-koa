@@ -9,14 +9,14 @@ npm i fast-koa -S
 该包同时依赖了如下 npm 包：
 
 ```
-"joi": "^13.1.2", // 对象验证
-"koa": "^2.4.1", // koa核心包
-"koa-body": "^2.5.0", // 解析request body参数
-"koa-cors": "0.0.16", // 处理跨域
-"koa-helmet": "^3.3.0", // 设置安全header
-"koa-logger": "^3.1.0", // 日志记录
-"koa-response-time": "^2.0.0", // 响应时间记录
-"koa-router": "^7.4.0" // 路由
+"joi" // 对象验证
+"koa" // koa核心包
+"koa-body" // 解析request body参数
+"@koa/cors" // 处理跨域
+"koa-helmet" // 设置安全header
+"koa-logger" // 日志记录
+"koa-response-time" // 响应时间记录
+"koa-router" // 路由
 ```
 
 所以以上这些包也可以在项目中直接使用。
@@ -54,3 +54,6 @@ npm run dev # 实际执行的是 fast-koa dev, 会自动监控src目录，并重
 # Run build
 npm run build # 实际执行的是 fast-koa build, 将文件拷贝到dist目录，并使用 `npm i --production` 安装运行时依赖
 ``
+```
+
+**注意：fast-koa-cli 对目录有结构有要求，请参考 [fast-koa-demo](../packages/fast-koa-demo) 的目录结构。**
