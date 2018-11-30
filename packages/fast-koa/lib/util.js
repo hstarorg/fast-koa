@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const helmet = require('koa-helmet');
 const logger = require('koa-logger');
-const cors = require('koa-cors');
+const cors = require('@koa/cors');
 const responseTime = require('koa-response-time');
 const body = require('koa-body');
 
